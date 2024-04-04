@@ -1,0 +1,37 @@
+.container {
+
+}
+
+
+
+
+.productAmountSelector {
+
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-top: 10px;
+}
+
+
+.productAmountSelector > div { 
+
+    font-size: 16px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 30px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.productAmountSelector {
+
+    font-size: 26px;
+    color: #fff;
+
+}
