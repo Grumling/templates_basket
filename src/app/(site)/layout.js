@@ -1,9 +1,13 @@
-import { BasketContextProvider } from "@/context/basket.context";
+import SiteNavigation from '@/components/navigation/siteNavigation/siteNavigation'
+import { BasketContextProvider } from '@/context/basket.context'
 
 export default function siteLayout({ children }) {
-    return <div>
-        <BasketContextProvider>
+  return (
+    <div>
+      <BasketContextProvider>
+        <SiteNavigation />
         {children}
-        </BasketContextProvider>
+      </BasketContextProvider>
     </div>
+  )
 }

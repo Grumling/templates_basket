@@ -1,12 +1,7 @@
-"use client"
-import BoilerBox from '@/components/boilerplate/boilerbox'
+'use client'
+
 import styles from './page.module.css'
 
 export default function Home() {
-  return (
-    <main className={styles.page} >
-      <BoilerBox />
-    </main>
-  )
+  return <main className={styles.page}>FRONTPAGE</main>
 }
-
